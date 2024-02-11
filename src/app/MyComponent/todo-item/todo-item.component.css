@@ -1,0 +1,12 @@
+.todoItemLandingPage{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    overflow-wrap: break-word;
+    color: azure;
+}
+button{
+    width: 15%;
+}
+
+

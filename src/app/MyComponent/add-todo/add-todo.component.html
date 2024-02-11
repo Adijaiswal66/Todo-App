@@ -1,0 +1,27 @@
+<div class="container addtodoLandingPage">
+    <h4>Add your Todo</h4>
+    <form (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+            <label for="Title" class="form-label inputAdd ">Title</label>
+            <input type="text" class="form-control" name="title" [(ngModel)]="title" id="title"
+                aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="desc" class="form-label inputAdd ">Description</label>
+            <input type="text" class="form-control" name="desc" [(ngModel)]="desc" id="desc">
+        </div>
+
+
+        <button type="submit" class="button">
+            <span class="button__text">Add todo</span>
+            <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24"
+                    stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24"
+                    fill="none" class="svg">
+                    <line y2="19" y1="5" x2="12" x1="12"></line>
+                    <line y2="12" y1="12" x2="19" x1="5"></line>
+                </svg></span>
+        </button>
+
+        <!-- <button type="submit" class="btn btn-primary">Add todo</button> -->
+    </form>
+</div>

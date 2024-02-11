@@ -1,0 +1,17 @@
+.Yourtodos {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    color: azure;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.noTodos {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    color: azure;
+    font-weight: bold;
+    font-size: 20px;
+}

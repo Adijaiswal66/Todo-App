@@ -1,0 +1,13 @@
+h2{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 15%;
+    margin-top: 1rem;
+    border-radius: 8px;
+    justify-content: center;
+    background-color:#2B2D42;
+    color:azure ;
+    padding: 5px;
+}
