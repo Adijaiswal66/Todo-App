@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TodoApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# Todo-App
+Todo App is a fully responsive task management application built with Angular. It provides an intuitive and seamless experience for users to organize their tasks efficiently ensuring a consistent and user-friendly experience across various devices.
+>>>>>>> a4ac9862d190a8ec85ab3bde5f76e1d01e19859b
